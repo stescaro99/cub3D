@@ -23,10 +23,10 @@ static	void	ft_move(t_map **map, t_position **pos, double sin, double cos)
 	arr[0] = (int)(*pos)->x;
 	arr[1] = (int)(*pos)->y;
 	arr[2] = 0;
-	if (BONUS && ft_strchr("1ID", (*map)->map[(int)(y - (sin > 0) * 0.1
+	if (ft_strchr("1ID", (*map)->map[(int)(y - (sin > 0) * 0.1
 				+ (sin <= 0) * 0.1)][(int)x]))
 		arr[2]++;
-	if (BONUS && ft_strchr("1ID", (*map)->map[(int)y][(int)(x
+	if (ft_strchr("1ID", (*map)->map[(int)y][(int)(x
 			+ (cos > 0) * 0.1 - (cos < 0) * 0.1)]))
 		arr[2] += 2;
 	if (arr[2] == 0 || arr[2] == 2)
