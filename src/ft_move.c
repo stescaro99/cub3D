@@ -18,8 +18,8 @@ static	void	ft_move(t_map **map, t_position **pos, double sin, double cos)
 	double	y;
 	int		arr[3];
 
-	x = (*pos)->x + cos * 0.1;
-	y = (*pos)->y - sin * 0.1;
+	x = (*pos)->x + cos * 0.05 / pow((1600.0 / X_PIXEL), 2);
+	y = (*pos)->y - sin * 0.05 / pow((1600.0 / X_PIXEL), 2);
 	arr[0] = (int)(*pos)->x;
 	arr[1] = (int)(*pos)->y;
 	arr[2] = 0;
