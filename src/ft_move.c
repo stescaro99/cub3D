@@ -80,7 +80,7 @@ static	void	open_door(t_position *pos, t_map **map)
 
 static	short	ft_rotate(t_cmds *cmds, t_position **pos, t_map **map)
 {
-	(*pos)->angle += cmds->rotate * 0.1;
+	(*pos)->angle += cmds->rotate * 0.1 / pow((1600.0 / X_PIXEL), 2);
 	if ((*pos)->angle > 2 * M_PI)
 		(*pos)->angle -= 2 * M_PI;
 	if ((*pos)->angle < 0)
