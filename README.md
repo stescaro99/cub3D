@@ -1,7 +1,7 @@
 # 42 school's cub3D (125/100)
 made by stescaro and sfabi
 
-#Controls
+# Controls
 Controls for movement and rotation are:
 
 W: move forward
