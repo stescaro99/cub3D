@@ -5,11 +5,19 @@ made by stescaro and sfabi
 Controls for movement and rotation are:
 
 W: move forward
+
 S: move backward
+
 A: strafe left
+
 D: strafe right
+
 left arrow: rotate left
+
 right arrow: rotate right
+
 space: open door
+
 shift: faster movements
+
 mouse: rotate by moving the mouse (bonus only)
