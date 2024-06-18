@@ -18,6 +18,6 @@ right arrow: rotate right
 
 space: open door
 
-shift: faster movements
+shift: move faster
 
 mouse: rotate by moving the mouse (bonus only)
